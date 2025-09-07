@@ -115,7 +115,7 @@ Proyek ini dikembangkan dengan bantuan alat AI untuk mempercepat pengembangan da
 
 ### Debugging & Penyempurnaan
 
-- **Model**: GitHub Copilot (Claude-3.5-Sonnet)
+- **Model**: GitHub Copilot (Claude-4-Sonnet)
 - **Peran**: Debugging komprehensif, peningkatan fitur, dan penyempurnaan kode
 - **Kontribusi**:
   - Memperbaiki bug logika game dan deteksi kemenangan
