@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connect Four</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0idXJsKCNncmFkaWVudCkiIHN0cm9rZT0iI2ZmOGU4ZSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPGRlZnM+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9ImdyYWRpZW50IiBjeD0iMzAlIiBjeT0iMzAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNmI2YiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZTVhNTIiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgo8L3N2Zz4K">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="game-container">
+  <h1 style="text-align: center; margin-bottom: 5px; font-size: 24px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Connect Four</h1>
+  <p style="text-align: center; margin: 0 0 8px 0; font-size: 12px; opacity: 0.8; font-style: italic;">Created by Muhammad Tsaqiif</p>
+  
+  <div id="turn-indicator" class="player-turn">Player Move</div>
+  
+  <div id="board-container">
+    <div id="arrow-row"></div>
+    <div id="preview-row"></div>
+    <div id="board"></div>
+  </div>
+  
+  <div id="scoreboard">
+    <div id="player-score">Player: 0</div>
+    <div id="computer-score">Computer: 0</div>
+  </div>
+  
+  <div class="controls">
+    <label for="difficulty">Difficulty:</label>
+    <div class="custom-select">
+      <button class="select-button" id="difficulty-button">Easy</button>
+      <div class="select-dropdown" id="difficulty-dropdown">
+        <div class="select-option" data-value="medium">Medium</div>
+        <div class="select-option selected" data-value="easy">Easy</div>
+      </div>
+    </div>
+    <button id="reset-score">Reset Score</button>
+  </div>
+</div>
+
+<div id="modal" style="display: none;">
+  <div class="modal-content">
+    <h2 id="winner"></h2>
+    <div class="modal-buttons">
+      <button id="play-again" class="btn-primary">
+        Play Again
+        <span class="tooltip">Continue with current score</span>
+      </button>
+      <button id="new-game" class="btn-secondary">
+        New Game
+        <span class="tooltip">Reset score and start fresh</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div id="confirm-modal" style="display: none;">
+  <div class="confirm-content">
+    <h3 id="confirm-title">Confirmation</h3>
+    <p id="confirm-message">Are you sure?</p>
+    <div class="confirm-buttons">
+      <button id="confirm-yes" class="btn-confirm">Yes</button>
+      <button id="confirm-no" class="btn-cancel">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
