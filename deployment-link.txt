@@ -1,0 +1,36 @@
+CONNECT FOUR GAME - DEPLOYMENT INFORMATION
+========================================
+
+🌐 Live Demo URL:
+https://connect-four-virid.vercel.app/
+
+📂 GitHub Repository:
+https://github.com/Kanaieu/connect-four
+
+🔧 Clone Command:
+git clone https://github.com/Kanaieu/connect-four.git
+
+📅 Deployment Date: September 7, 2025
+🏗️ Platform: Vercel
+👨‍💻 Developer: Muhammad Tsaqiif
+
+🎮 Game Features:
+- Modern Connect Four implementation
+- AI opponent with multiple difficulty levels
+- Glass morphism design
+- Responsive layout
+- Score tracking
+- Interactive animations
+
+📋 Project Repository:
+GitHub: https://github.com/Kanaieu/connect-four
+- Contains HTML, CSS, and JavaScript files
+- Fully functional browser-based game
+- No server setup required
+
+🚀 Deployment Status: ACTIVE
+✅ SSL Certificate: Enabled
+🌍 Global CDN: Active
+
+---
+Last Updated: September 7, 2025
